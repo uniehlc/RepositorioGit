@@ -40,7 +40,7 @@ def load_data():
         
         return df
     except FileNotFoundError:
-        print("Error: El archivo 'datos_energia.csv' no se encuentra en el directorio actual.")
+        print("Error: El archivo 'datos_energia.csv' no se encuentra en el directorio.")
         return None
     except Exception as e:
         print(f"Error al cargar los datos: {e}")
