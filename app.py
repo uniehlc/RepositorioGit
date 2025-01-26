@@ -24,7 +24,9 @@ def load_data():
     """
     Carga el archivo 'datos_energia.csv' como un DataFrame.
     La columna 'time' se convierte al formato datetime y se establece como índice.
-    Carga de datos
+    Carga de datos.
+
+    Esta funcion retorna un Dataframe
     
     :return: DataFrame con los datos cargados y la columna 'time' como índice.
     """
